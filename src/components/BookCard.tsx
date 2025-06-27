@@ -26,9 +26,9 @@ const BookCard = ({ book }: BookCardProps) => {
           {book.title}
         </h3>
         
-        <p className="text-gray-300 mb-8 leading-relaxed">
+        <div className="text-gray-300 mb-8 leading-relaxed text-left whitespace-pre-line text-sm">
           {book.description}
-        </p>
+        </div>
         
         <div className="space-y-4">
           <Button 
