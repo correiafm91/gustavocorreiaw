@@ -7,9 +7,6 @@ const Hero = () => {
           Seja Bem-Vindo
         </h1>
         <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mb-12"></div>
-        <p className="text-xl md:text-2xl text-gray-300 font-light tracking-wide">
-          Descubra histórias que transformam e inspiram
-        </p>
       </div>
     </section>
   );

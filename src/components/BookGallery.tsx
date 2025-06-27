@@ -6,13 +6,13 @@ const BookGallery = () => {
     {
       id: 1,
       image: "https://i.postimg.cc/1tq7TkGZ/512247044-17847481935508496-4517404474951452996-n.jpg",
-      title: "Livro 1",
+      title: "Livro",
       description: "Uma obra extraordinária que promete cativar leitores com sua narrativa envolvente."
     },
     {
       id: 2,
       image: "https://i.postimg.cc/0yk3QHsp/Picsart-25-06-27-14-31-49-751.jpg",
-      title: "Livro 2", 
+      title: "Livro", 
       description: "Uma jornada literária única que explora temas profundos da experiência humana."
     }
   ];
