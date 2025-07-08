@@ -5,9 +5,9 @@ const BookGallery = () => {
   const books = [
     {
       id: 1,
-      image: "https://i.postimg.cc/Hk2BTNVn/Captura-de-tela-2025-06-29-204137.png",
-      title: "Autodidata: Seja um engenheiro sem ter um diploma", 
-      description: "Autodidata: Seja um engenheiro sem ter um diploma é um guia direto, inspirador e prático para quem deseja aprender sozinho, dominar habilidades técnicas e conquistar espaço profissional fora dos caminhos tradicionais da educação formal.\n\nEscrito por Gustavo Correia, escritor, mentor e autodidata que saiu de 450 pontos no Enem para transformar sua própria trajetória, o livro é inspirado em histórias reais de pessoas que desafiaram o sistema e provaram que o conhecimento não precisa de permissão.\n\nCom uma linguagem acessível e estratégica, Gustavo compartilha métodos eficazes de aprendizagem, técnicas de foco e produtividade, além da mentalidade resiliente e criativa necessária para construir autoridade, conquistar clientes e realizar projetos de alto nível, mesmo sem diploma."
+      image: "https://i.postimg.cc/BZwZqWzh/Chat-GPT-Image-8-07-2025-06-09-21.png",
+      title: "Phil e Eddie: Uma Comédia Policial", 
+      description: "Phil e Eddie são parceiros de farda há anos, inseparáveis na delegacia e ainda mais quando estão de folga. Quando os tão aguardados dois dias de descanso finalmente chegam, tudo o que eles querem é relaxar, curtir e esquecer o caos das ruas. Mas o que começa como uma noite divertida se transforma em um desastre inesquecível.\n\nSeduzidos por duas mulheres misteriosas, Phil e Eddie caem em uma armadilha inesperada: algemados, nus e presos dentro da própria viatura, enquanto suas \"acompanhantes\" fogem a pé levando todos os seus pertences, armas, celulares e documentos, deixando-os vulneráveis e isolados.\n\nSem nada, com o orgulho ferido e o tempo contra eles, a dupla faz de tudo para recuperar seus bens, escapar da situação e limpar o nome antes que o escândalo se espalhe. Uma comédia policial recheada de reviravoltas, humor ácido e situações tão absurdas quanto reais, onde nem sempre a lei está do lado certo da arma."
     }
   ];
 
