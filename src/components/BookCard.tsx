@@ -49,7 +49,7 @@ const BookCard = ({ book }: BookCardProps) => {
         <img
           src={book.image}
           alt={book.title}
-          className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+          className="w-full h-full object-contain hover:scale-110 transition-transform duration-500"
         />
       </div>
       

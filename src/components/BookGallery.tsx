@@ -6,7 +6,7 @@ const BookGallery = () => {
     {
       id: 1,
       image: "https://i.postimg.cc/BZwZqWzh/Chat-GPT-Image-8-07-2025-06-09-21.png",
-      title: "Phil e Eddie: Uma Comédia Policial", 
+      title: "Código 69", 
       description: "Phil e Eddie são parceiros de farda há anos, inseparáveis na delegacia e ainda mais quando estão de folga. Quando os tão aguardados dois dias de descanso finalmente chegam, tudo o que eles querem é relaxar, curtir e esquecer o caos das ruas. Mas o que começa como uma noite divertida se transforma em um desastre inesquecível.\n\nSeduzidos por duas mulheres misteriosas, Phil e Eddie caem em uma armadilha inesperada: algemados, nus e presos dentro da própria viatura, enquanto suas \"acompanhantes\" fogem a pé levando todos os seus pertences, armas, celulares e documentos, deixando-os vulneráveis e isolados.\n\nSem nada, com o orgulho ferido e o tempo contra eles, a dupla faz de tudo para recuperar seus bens, escapar da situação e limpar o nome antes que o escândalo se espalhe. Uma comédia policial recheada de reviravoltas, humor ácido e situações tão absurdas quanto reais, onde nem sempre a lei está do lado certo da arma."
     }
   ];
