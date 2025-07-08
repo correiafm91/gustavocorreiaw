@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
 
@@ -13,15 +12,16 @@ interface BookCardProps {
 
 const BookCard = ({ book }: BookCardProps) => {
   const [timeLeft, setTimeLeft] = useState({
-    days: 0,
+    days: 6,
     hours: 0,
     minutes: 0,
     seconds: 0
   });
 
   useEffect(() => {
-    // Data fixa de lançamento: 14 de janeiro de 2025 às 00:00
-    const targetDate = new Date('2025-01-14T00:00:00');
+    // Calcula 6 dias a partir de agora
+    const targetDate = new Date();
+    targetDate.setDate(targetDate.getDate() + 6);
 
     const timer = setInterval(() => {
       const now = new Date().getTime();
