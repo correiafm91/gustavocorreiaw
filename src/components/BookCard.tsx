@@ -13,15 +13,15 @@ interface BookCardProps {
 
 const BookCard = ({ book }: BookCardProps) => {
   const [timeLeft, setTimeLeft] = useState({
-    days: 48,
+    days: 0,
     hours: 0,
     minutes: 0,
     seconds: 0
   });
 
   useEffect(() => {
-    const targetDate = new Date();
-    targetDate.setDate(targetDate.getDate() + 48);
+    // Data fixa de lançamento: 14 de janeiro de 2025 às 00:00
+    const targetDate = new Date('2025-01-14T00:00:00');
 
     const timer = setInterval(() => {
       const now = new Date().getTime();
