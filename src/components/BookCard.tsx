@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
 
@@ -12,16 +13,15 @@ interface BookCardProps {
 
 const BookCard = ({ book }: BookCardProps) => {
   const [timeLeft, setTimeLeft] = useState({
-    days: 6,
+    days: 48,
     hours: 0,
     minutes: 0,
     seconds: 0
   });
 
   useEffect(() => {
-    // Calcula 6 dias a partir de agora
     const targetDate = new Date();
-    targetDate.setDate(targetDate.getDate() + 6);
+    targetDate.setDate(targetDate.getDate() + 48);
 
     const timer = setInterval(() => {
       const now = new Date().getTime();
@@ -49,7 +49,7 @@ const BookCard = ({ book }: BookCardProps) => {
         <img
           src={book.image}
           alt={book.title}
-          className="w-full h-full object-contain hover:scale-110 transition-transform duration-500"
+          className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
         />
       </div>
       
